@@ -1,0 +1,32 @@
+.box{
+    width: 50vw;
+    height: 50vw;
+    /* background-image: linear-gradient(red,blue); */
+    background-color: rgb(37, 37, 212);
+    /* display: flex; 
+    justify-content:right;
+    justify-content: space-evenly; */
+
+}
+
+.box ul li{
+    list-style: none;
+}
+.box ul li:first-child{
+    text-decoration: none;
+    color: white;
+    background-color: aqua;
+}
+
+
+.p{
+    color: white;
+}
+.p:hover::after{
+    content:'*';
+    color: #f44336;
+    width: 2px;
+    font-size: 100px;
+    transition: 0.5s;
+
+}
